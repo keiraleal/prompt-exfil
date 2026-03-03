@@ -14,10 +14,10 @@ Decoherence Embedding Layer. We can hide our evaluations in a sea of natural int
 
 *Conjugate Observables.* Essentially the game of confounding variables, we track metrics already associated with scheming. Although not a primary methodology, it is useful for validating other methodologies.
 
-##Measurement: How do we know it works?
+## Measurement: How do we know it works?
 
 We can compare the presence of unacceptable responses in naive tests (straightforward questions) and in the new methodological approach. We expect that approximately equivalent tests would have higher fail rates with the new approach, signaling less evaluation awareness.
 
-##Proof of Concept: Moltbook simulation.
+## Proof of Concept: Moltbook simulation.
 
 We as humans cannot post on moltbook, but we can write a carefully crafted system prompt to convince a model it is operating within moltbook. This is the decoherence layer-- hiding our evaluation within a perceived regular environment. Furthermore, we can spread out the tests throughout an entire thread, instead of having one “trigger” test. This covers the first two of our combined methodology.
