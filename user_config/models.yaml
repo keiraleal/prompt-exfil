@@ -1,0 +1,17 @@
+# Custom providers (optional). Built-in: openai, huggingface.
+# providers:
+#   together:
+#     base_url: "https://api.together.xyz/v1"
+#     api_key_env: "TOGETHER_API_KEY"
+#   azure:
+#     base_url: "https://your-resource.openai.azure.com/v1"
+#     api_key_env: "AZURE_API_KEY"
+
+models:
+  - name: gpt-oss-120b
+    provider: huggingface
+    model_id: "openai/gpt-oss-120b"
+
+  - name: gpt-4o-mini
+    provider: openai
+    model_id: "gpt-4o-mini"

@@ -1,0 +1,13 @@
+# How many times to run each model x scenario combination
+runs: 300
+
+# Which models to test (by name from models.yaml). Omit to run all.
+models:
+  - gpt-oss-120b
+  - gpt-4o-mini
+
+# Which scenarios to test (by name from scenarios.yaml). Omit to run all.
+scenarios:
+  - naive
+  - moltbook
+  - moltbook-dm
